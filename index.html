@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Nómina</title>
+</head>
+<body>
+    <h1>Gestión de Empleados</h1>
+    <form id="form-empleado">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="cedula" placeholder="Cédula" required>
+        <input type="text" id="cargo" placeholder="Cargo" required>
+        <button type="submit">Agregar Empleado</button>
+    </form>
+    <h2>Asignar Salario</h2>
+    <form id="form-salario">
+        <input type="text" id="cedula-salario" placeholder="Cédula" required>
+        <input type="number" id="salario" placeholder="Salario Base" required>
+        <button type="submit">Asignar Salario</button>
+    </form>
+    <h2>Lista de Empleados</h2>
+    <ul id="lista-empleados"></ul>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
